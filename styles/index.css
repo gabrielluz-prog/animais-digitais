@@ -1,0 +1,75 @@
+#page-content {
+    transition-duration: 2s;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 1px 10px #00000050;
+}
+#page-content button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px #00000050;
+    margin: 30vh auto;
+    cursor: pointer;
+    font: 1.1em Verdana, sans-serif;
+    color: white;
+    background: var(--additional-color);
+}
+#page-content button:hover {
+    transition: 0.9s;
+    box-shadow: 3px 3px 15px #00000080;
+    color: #aaa;
+    background: var(--dark-additional-color);
+}
+article#animals-choices {
+    max-width: 800px;
+    margin: auto;
+}
+#page-content img {
+    transition: 0.8s;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin: 40px 10px;
+    padding: 30px;
+    border-radius: 5px;
+}
+#page-content img:hover {
+    transition: 0.5s;
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    background: var(--light-color);
+}
+#bird-image {
+    background: skyblue;
+}
+#cat-image {
+    background: lightpink;
+}
+#dog-image {
+    background: gold;
+}
+#wolf-image {
+    background: gray;
+}
+#bear-image {
+    background: #deefcc;
+}
+#lion-image {
+    background: goldenrod;
+}
+#tiger-image {
+    background: greenyellow;
+}
+#giraffe-image {
+    background: saddlebrown;
+}
+#elephant-image {
+    background: yellow;
+}
+#croc-image {
+    background: darkgreen;
+}
